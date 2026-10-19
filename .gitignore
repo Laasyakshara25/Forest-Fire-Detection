@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+profile_default/
+
+# PyTorch / training outputs
+*.pth
+*.pt
+*.onnx
+
+# Extracted dataset (unzip forest_fire_detection/datasets/fire_dataset.zip)
+data/
+
+# Notebook-generated figures and logs (regenerate from notebook)
+*.pdf
+!forest_fire_detection/docs/**/*.pdf
+
+# OS and editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Cursor / local tooling
+.cursor/
